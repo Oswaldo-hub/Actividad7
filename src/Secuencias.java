@@ -28,10 +28,10 @@ public class Secuencias {
       int   [] numeros = new int[n];
         System.out.println("Calculando numeros primos: ");
         for(int i=0; i<numeros.length; i++) {
-         numeros[i] = i + 1;
+            numeros[i] = i + 1;
 
           a = numeros[i];
-            if( i  %2==0){} else {System.out.println("numeros primos: " + i );}
+            if( i  %2!=0){System.out.println("numeros primos: " + i );}
         }
 
 
